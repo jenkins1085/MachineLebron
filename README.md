@@ -2,6 +2,7 @@
 Machine learning technique's applied to the playing career of the GOAT, Lebron Raymone James Sr.
 
 a.) Our project will attempt to determine which of Lebron James’ game statistics is the best predictor of him winning games. We will determine which individual statistic, which pair, and which trio is the best predictor. For example, we may determine that True Shooting Percentage is the best individual predictor but Assists and Points Scored is the best pair predictor. We will then take some of the best predictors and will use Logistic Regression to create a model and will test our model’s accuracy against the current season 2020-2021.
+
 b.) The target variable will be if Lebron James won (W) or lost (L) the game. We will use data from his rookie season (2003-2004) to his last season (2019-2020). Lebron has played over 1000 NBA regular season games in that span. Our test data will be this current season (which is 37 games and counting). Our variables will include the following (taken from https://www.basketball-reference.com/players/j/jamesle01.html). We will have a total of 24 variables.
 * Minutes Played, Personal Fouls
 * Field Goals Made, Field Goals Attempted, Field Goal Percentage
