@@ -1,5 +1,8 @@
 import pandas as pd
 import numpy as np
+import time
+
+start = time.time()
 
 # Import datasets
 train = pd.read_csv('lebron_train.csv')
@@ -64,3 +67,6 @@ def twoVariables(df, colNames, result):
 
 singleVariable(train, colNames, train_result)
 twoVariables(train, colNames, train_result)
+
+end = time.time()
+print("Elapsed time: " + str(end-start))
