@@ -1,0 +1,257 @@
+----- SINGLE VARIABLE PREDICTOR -----
+
+Result:
+Best R2 Score: DRB, 0.06696 
+Best RMSE: DRB, 0.44949
+
+MP:
+Best R2 Score: 3PA, -0.69863 
+Best RMSE: FGA, 5.86623
+
+FG:
+Best R2 Score: PTS, 0.83659 
+Best RMSE: PTS, 1.32455
+
+FGA:
+Best R2 Score: FG, 0.69037 
+Best RMSE: FG, 2.64172
+
+FG%:
+Best R2 Score: GmSc, 0.48854 
+Best RMSE: GmSc, 0.06362
+
+3P:
+Best R2 Score: 3PA, 0.53039 
+Best RMSE: 3PA, 1.06892
+
+3PA:
+Best R2 Score: FTA, -1.12769 
+Best RMSE: 3P, 1.88094
+
+3P%:
+Best R2 Score: 3P, 0.41643 
+Best RMSE: 3P, 0.12718
+
+FT:
+Best R2 Score: PTS, -1.13831 
+Best RMSE: FTA, 0.93283
+
+FTA:
+Best R2 Score: 3PA, -1.10439 
+Best RMSE: FT, 1.21465
+
+FT%:
+Best R2 Score: FT, 0.11269 
+Best RMSE: FT, 0.17491
+
+ORB:
+Best R2 Score: TRB, -1.23150 
+Best RMSE: MP, 0.88201
+
+DRB:
+Best R2 Score: TRB, 0.86194 
+Best RMSE: TRB, 1.04206
+
+TRB:
+Best R2 Score: DRB, 0.88609 
+Best RMSE: DRB, 0.95225
+
+AST:
+Best R2 Score: DRB, 0.10744 
+Best RMSE: DRB, 2.26852
+
+STL:
+Best R2 Score: DRB, -0.29774 
+Best RMSE: MP, 1.01558
+
+BLK:
+Best R2 Score: GmSc, 0.09468 
+Best RMSE: GmSc, 0.69621
+
+TOV:
+Best R2 Score: Result, -0.07917 
+Best RMSE: MP, 1.55729
+
+PF:
+Best R2 Score: MP, 0.10631 
+Best RMSE: MP, 1.02236
+
+PTS:
+Best R2 Score: FG, 0.85668 
+Best RMSE: FG, 2.52922
+
+GmSc:
+Best R2 Score: PTS, 0.75201 
+Best RMSE: PTS, 3.28607
+
+----- DOUBLE VARIABLE PREDICTORS -----
+
+Result:
+Best R2 Score: ['MP', 'TOV'], -0.09765
+Best RMSE: ['DRB', 'STL'], 0.44308
+
+MP:
+Best R2 Score: ['DRB', '3PA'], -0.71800
+Best RMSE: ['FT', 'FGA'], 5.43988
+
+FG:
+Best R2 Score: ['FGA', 'FG%'], 0.98166
+Best RMSE: ['FG%', 'FGA'], 0.44377
+
+FGA:
+Best R2 Score: ['FG', 'FG%'], 0.97073
+Best RMSE: ['FG', 'FG%'], 0.81223
+
+FG%:
+Best R2 Score: ['FG', 'FGA'], 0.94307
+Best RMSE: ['FGA', 'FG'], 0.02123
+
+3P:
+Best R2 Score: ['3P%', '3PA'], 0.83342
+Best RMSE: ['3P%', '3PA'], 0.63663
+
+3PA:
+Best R2 Score: ['MP', 'FTA'], -1.20201
+Best RMSE: ['3P%', '3P'], 1.48083
+
+3P%:
+Best R2 Score: ['3P', '3PA'], 0.60234
+Best RMSE: ['3P', '3PA'], 0.10499
+
+FT:
+Best R2 Score: ['BLK', 'PTS'], -1.21197
+Best RMSE: ['FTA', 'FT%'], 0.46851
+
+FTA:
+Best R2 Score: ['3PA', 'DRB'], -1.19122
+Best RMSE: ['FT', 'FT%'], 0.65554
+
+FT%:
+Best R2 Score: ['FTA', 'FT'], 0.72435
+Best RMSE: ['FTA', 'FT'], 0.09749
+
+ORB:
+Best R2 Score: ['FG', 'TRB'], -1.27740
+Best RMSE: ['BLK', 'MP'], 0.87309
+
+DRB:
+Best R2 Score: ['MP', 'TRB'], 0.86848
+Best RMSE: ['MP', 'TRB'], 1.01710
+
+TRB:
+Best R2 Score: ['DRB', 'MP'], 0.89858
+Best RMSE: ['DRB', 'MP'], 0.89852
+
+AST:
+Best R2 Score: ['MP', 'DRB'], 0.15321
+Best RMSE: ['MP', 'DRB'], 2.20958
+
+STL:
+Best R2 Score: ['FG%', 'DRB'], -0.30365
+Best RMSE: ['Result', 'MP'], 0.98423
+
+BLK:
+Best R2 Score: ['GmSc', 'PTS'], 0.12960
+Best RMSE: ['PTS', 'GmSc'], 0.68265
+
+TOV:
+Best R2 Score: ['PTS', 'GmSc'], 0.23825
+Best RMSE: ['PTS', 'GmSc'], 1.39331
+
+PF:
+Best R2 Score: ['MP', 'GmSc'], 0.13054
+Best RMSE: ['MP', 'GmSc'], 1.00840
+
+PTS:
+Best R2 Score: ['FT', 'FG'], 0.93212
+Best RMSE: ['FT', 'FG'], 1.74059
+
+GmSc:
+Best R2 Score: ['TOV', 'PTS'], 0.81684
+Best RMSE: ['PTS', 'TOV'], 2.82404
+
+----- USING ALL STATS AS PREDICTORS -----
+
+Result:
+R2 Score: 0.06650
+Best RMSE: 0.44960
+
+MP:
+R2 Score: 0.36669
+Best RMSE: 4.74228
+
+FG:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+FGA:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+FG%:
+R2 Score: 0.95340
+Best RMSE: 0.01920
+
+3P:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+3PA:
+R2 Score: 0.64046
+Best RMSE: 1.37068
+
+3P%:
+R2 Score: 0.64510
+Best RMSE: 0.09918
+
+FT:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+FTA:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+FT%:
+R2 Score: 0.73352
+Best RMSE: 0.09585
+
+ORB:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+DRB:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+TRB:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+AST:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+STL:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+BLK:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+TOV:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+PF:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+PTS:
+R2 Score: 1.00000
+Best RMSE: 0.00000
+
+GmSc:
+R2 Score: 1.00000
+Best RMSE: 0.00000
